@@ -11,7 +11,7 @@ const reviewSchema = mongoose.Schema({
         required: true
     },
     rating: {
-        type: number,
+        type: Number,
         required: true
     },
     comment: {
@@ -58,7 +58,7 @@ const productSchema = new mongoose.Schema({
         default: 0
     },
     price: {
-        type: number,
+        type: Number,
         required: true,
         default: 0
     },
